@@ -10,6 +10,6 @@ export default class HomePage extends BasePage {
     await page.waitForSelector('#pages-nav');
     await page.waitForSelector('#homeMenu');
     await page.waitForSelector('#onlineBankingMenu');
-    await page.waitForSelector('#nfeedback');
+    await page.waitForSelector('#feedback');
   }
 }
